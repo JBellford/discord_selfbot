@@ -18,7 +18,8 @@ namespace discord_selfbot
             if (this.Client.User.Id == this.Message.Author.User.Id)
                 this.Message.Delete();
             else
-                return;
+                return; 
+            Console.WriteLine();
             Console.WriteLine("————————  Commands  ————————");
             Program.Log($"d4rk.Purge <0 - 500>", "Deletes x amount of messages");
             Program.Log($"d4rk.User <User ID>", "Dumps some profile information on the user id");
