@@ -22,7 +22,7 @@ namespace discord_selfbot
 
         static void Main(string[] args)
         {
-            if (token == null || token == "") {Console.Write($"[+] - Token -> "); token = Console.ReadLine(); } else { Console.WriteLine($"[+] - Token -> {token}"); }
+            if (token == "") {Console.Write($"[+] - Token -> "); token = Console.ReadLine(); } else { Console.WriteLine($"[+] - Token -> {token}"); }
 
             DiscordSocketClient client = new DiscordSocketClient();
 
