@@ -1,0 +1,13 @@
+E:\Github Projects\discord_selfbot\discord_selfbot\obj\Debug\discord_selfbot.csprojAssemblyReference.cache
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\discord_selfbot.exe.config
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\discord_selfbot.exe
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\discord_selfbot.pdb
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\Anarchy.dll
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\Leaf.xNet.dll
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\Newtonsoft.Json.dll
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\websocket-sharp.dll
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\Leaf.xNet.xml
+E:\Github Projects\discord_selfbot\discord_selfbot\bin\Debug\Newtonsoft.Json.xml
+E:\Github Projects\discord_selfbot\discord_selfbot\obj\Debug\discord_selfbot.csproj.CopyComplete
+E:\Github Projects\discord_selfbot\discord_selfbot\obj\Debug\discord_selfbot.exe
+E:\Github Projects\discord_selfbot\discord_selfbot\obj\Debug\discord_selfbot.pdb
