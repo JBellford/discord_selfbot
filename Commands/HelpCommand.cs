@@ -21,11 +21,11 @@ namespace discord_selfbot
                 return; 
             Console.WriteLine();
             Console.WriteLine("————————  Commands  ————————");
-            Program.Log($"d4rk.Purge <0 - 500>", "Deletes x amount of messages");
-            Program.Log($"d4rk.User <User ID>", "Dumps some profile information on the user id");
-            Program.Log($"d4rk.Server <Server ID>", "Dumps some server information on the server id");
-            Program.Log($"d4rk.Nitro <on - off>", "Automatically claims nitro gifts");
-            Program.Log($"d4rk.Giveaway <on - off>", "Automatically joins giveaways");
+            Program.Log($"b.Purge <0 - 500>", "Deletes x amount of messages");
+            Program.Log($"b.User <User ID>", "Dumps some profile information on the user id");
+            Program.Log($"b.Server <Server ID>", "Dumps some server information on the server id");
+            Program.Log($"b.Nitro <on - off>", "Automatically claims nitro gifts");
+            Program.Log($"b.Giveaway <on - off>", "Automatically joins giveaways");
             Console.WriteLine("————————————————————————————");
             Console.WriteLine();
 

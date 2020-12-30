@@ -29,13 +29,13 @@ namespace discord_selfbot
             client.OnLoggedIn += OnLoggedIn;
             client.OnMessageReceived += OnMessageReceived;
 
-            client.CreateCommandHandler("d4rk.");
+            client.CreateCommandHandler("b.");
 
             client.Login(token);
 
             while (true)
             {
-                Console.Title = $"{DateTime.Now}      |     d4rk selfbot     |      Logged in as : {client.User.Username}";
+                Console.Title = $"{DateTime.Now}      |     JBellford selfbot     |      Logged in as : {client.User.Username}";
                 Thread.Sleep(450);
             }
         }
