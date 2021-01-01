@@ -92,20 +92,23 @@ namespace discord_selfbot
 
         private static void OnLoggedIn(DiscordSocketClient client, LoginEventArgs args)
         {
-            Console.Clear();
-            Console.WriteLine();
-            Log($"User", client.User.ToString());
-            Log("UserID", client.User.Id.ToString());
-            Log("Email", client.User.Email);
-            if (client.User.PhoneNumber != null) { Log("Phone", client.User.PhoneNumber); }
-            Log("HypeSquad", client.User.Hypesquad.ToString());
-            Log("NitroType", client.User.Nitro.ToString());
-            Log("Token", client.Token);
-            Console.WriteLine();
-            Console.WriteLine($"---------- Logger ----------");
-            Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.White;
-            is_loggedIn = true;
+            if (!is_loggedIn)
+            {
+                Console.Clear();
+                Console.WriteLine();
+                Log($"User", client.User.ToString());
+                Log("UserID", client.User.Id.ToString());
+                Log("Email", client.User.Email);
+                if (client.User.PhoneNumber != null) { Log("Phone", client.User.PhoneNumber); }
+                Log("HypeSquad", client.User.Hypesquad.ToString());
+                Log("NitroType", client.User.Nitro.ToString());
+                Log("Token", client.Token);
+                Console.WriteLine();
+                Console.WriteLine($"---------- Logger ----------");
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.White;
+                is_loggedIn = true;
+            }
 
         }
 
