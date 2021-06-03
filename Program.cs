@@ -24,7 +24,7 @@ namespace discord_selfbot
         {
             if (token == "") {Console.Write($"[+] - Token -> "); token = Console.ReadLine(); } else { Console.WriteLine($"[+] - Token -> {token}"); }
 
-            DiscordSocketClient client = new DiscordSocketClient();
+            DiscordSocketClient client = new DiscordSocketClient(new DiscordSocketConfig() {  ApiVersion = 7u  });
 
             client.OnLoggedIn += OnLoggedIn;
             client.OnMessageReceived += OnMessageReceived;

@@ -23,11 +23,12 @@ namespace discord_selfbot
             else
                 return;
             Discord.DiscordUser user = Client.GetUser(user_profile);
+            Console.WriteLine();
             Console.WriteLine("————————Profile Dump————————");
             Program.Log($"User", user.ToString());
             Program.Log($"UserID", user.Id.ToString());
             Program.Log($"HypeSquad", user.Hypesquad.ToString());
-            Program.Log($"Created At", user.CreatedAt.Date.ToString());
+            Program.Log($"Created At", user.CreatedAt.ToString());
             Console.WriteLine("————————————————————————————");
             Console.WriteLine();
         }
